@@ -1,5 +1,5 @@
 {
-  "name": "file-sizer",
+  "name": "get-file-sizes",
   "version": "1.0.0",
   "description": "Find file sizes",
   "main": "file-sizer.js",
