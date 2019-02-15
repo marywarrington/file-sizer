@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const chalk = require('chalk');
-const { getFolderFileSizes } = require('../file-sizer');
+const { getFolderFileSizes } = require('./file-sizer');
 
 const folder = process.argv[2];
 
