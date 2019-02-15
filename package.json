@@ -1,0 +1,27 @@
+{
+  "name": "file-sizer",
+  "version": "0.0.0",
+  "description": "Find file sizes",
+  "main": "file-sizer.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marywarrington/file-sizer.git"
+  },
+  "keywords": [
+    "file-size",
+    "performance"
+  ],
+  "author": "Mary Warrington",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marywarrington/file-sizer/issues"
+  },
+  "homepage": "https://github.com/marywarrington/file-sizer#readme",
+  "dependencies": {
+    "bytes": "^3.1.0"
+  }
+}
