@@ -20,9 +20,22 @@ function getFileSizes(files) {
       sizeKb,
       sizeRaw,
     };
+  }).sort((a, b) => {
+    if (a.sizeRaw < b.sizeRaw) {
+      return -1;
+    }
+    if (a.sizeRaw > b.sizeRaw) {
+      return 1;
+    }
+    return 0;
   });
 }
 
+/**
+ *
+ * @param {string} folder
+ * @returns {{ filePath: string, size: string, sizeKb: string, sizeRaw: number }[]}
+ */
 function getFolderFileSizes(folder) {
   const files = fs.readdirSync(folder).map(file => path.join(folder, file));
   return getFileSizes(files);
